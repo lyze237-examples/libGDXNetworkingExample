@@ -75,10 +75,10 @@ public class Main extends Game
 	}
 
 	public void connect() {
-		String host = "localhost";
-		int port = 9999;
-		// webSocket = WebSockets.newSocket(WebSockets.toSecureWebSocketUrl(host, port));
-		webSocket = WebSockets.newSocket(WebSockets.toWebSocketUrl(host, port));
+		String host = "lib-gdx-networking-example-baoee.ondigitalocean.app";
+		int port = 443;
+		webSocket = WebSockets.newSocket(WebSockets.toSecureWebSocketUrl(host, port));
+		//webSocket = WebSockets.newSocket(WebSockets.toWebSocketUrl(host, port));
 		webSocket.addListener(getWebSocketListener());
 
 		try {
