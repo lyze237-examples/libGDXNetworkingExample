@@ -8,7 +8,7 @@ RUN ./gradlew headless:installDist --no-daemon
 
 FROM adoptopenjdk:8-jre-hotspot
 
-EXPOSE 9999
+EXPOSE 80
 
 RUN mkdir /app
 

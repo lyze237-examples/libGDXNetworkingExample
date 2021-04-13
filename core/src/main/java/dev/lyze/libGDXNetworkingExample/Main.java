@@ -75,7 +75,7 @@ public class Main extends Game
 	}
 
 	public void connect() {
-		String host = "lib-gdx-networking-example-baoee.ondigitalocean.app";
+		String host = "lib-gdx-networking-example-nfpla.ondigitalocean.app";
 		int port = 443;
 		webSocket = WebSockets.newSocket(WebSockets.toSecureWebSocketUrl(host, port));
 		//webSocket = WebSockets.newSocket(WebSockets.toWebSocketUrl(host, port));
